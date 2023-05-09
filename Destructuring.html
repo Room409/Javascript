@@ -1,23 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Destructuring</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
-<link rel="stylesheet" href="./styles.css">
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./styles.css">
 </head>
+
 <body>
-   
-   
-   
-   
-   
+    <button type="button" class="btn btn-primary m-2"><a href="./index.html"
+            class="text-light text-decoration-none fw-medium">Regresar al Menu</a></button>
+    <section class="container bg-primary my-5 py-5 rounded-1">
+        <h1 class="text-center py-3 bg-white w-50 mx-auto rounded-5">Destructuring</h1>
+        <div class="row gap-5 p-5">
+            <div class="col-12  mx-auto col-md-5 p-4 bg-body-secondary rounded-5">
+                <h2 class="fs-4">A que se refiere con Destructuring?</h2>
+                <p>Es una característica introducida en ECMAScript 6 (ES6) de JavaScript que permite extraer valores de
+                    objetos o arreglos y asignarlos a variables individuales de manera más concisa.
+                    En lugar de acceder a cada propiedad de un objeto o elemento de un arreglo mediante la notación de
+                    punto o corchetes, el Destructuring proporciona una sintaxis más compacta para extraer los valores
+                    directamente en variables separadas.</p>
+            </div>
+            <div class="col-12  mx-auto col-md-5 p-4 bg-body-secondary rounded-5">
+                <h2 class="fs-4">Ejemplo de uso</h2>
+                <p>
+                    <code><pre>
+                        const persona = { nombre: 'John', edad: 30 };
+
+                        const { nombre, edad } = persona;
+
+                        console.log(nombre); // Salida: John
+                        console.log(edad); // Salida: 30
+                    </pre></code>
+                </p>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
-    crossorigin="anonymous"></script>
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
