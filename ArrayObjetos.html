@@ -11,7 +11,27 @@
 <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
-   
+    <button type="button" class="btn btn-primary m-2"><a href="./index.html"
+        class="text-light text-decoration-none fw-medium">Regresar al Menu</a></button>
+<section class="container bg-primary my-5 py-5 rounded-1">
+    <h1 class="text-center py-3 bg-white w-50 mx-auto rounded-5">Copia de Array Objetos</h1>
+    <div class="row gap-5 p-5">
+        <div class="col-12  mx-auto col-md-5  p-4 bg-body-secondary rounded-5">
+            <h2 class="fs-4">En que nos podria ayudar Hoisting?</h2>
+            <p>Para poder copiar un array de objetos tendremos muchas opciones como la de usar el operador spread y copiar el array de objetos que queramos o usando el metodo Array.from() o JSON.parse()</p>
+        </div>
+        <div class="col-12  mx-auto col-md-5  p-4 bg-body-secondary rounded-5">
+            <h2 class="fs-4">Ejemplo</h2>
+            <p>
+                <pre><code>const arregloOriginal = [{ a: 1 }, { b: 2 }, { c: 3 }];
+                    const copiaSuperficial = [...arregloOriginal];
+                    
+                    copiaSuperficial = [{ a: 1 }, { b: 2 }, { c: 3 }]; //Salida
+                </code></pre>
+            </p>
+        </div>
+    </div>
+</section>
    
    
    
